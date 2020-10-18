@@ -107,7 +107,7 @@ body {
 .music-list {
   display: flex;
   flex-direction: column;
-  height: 40%;
+  height: 280px;
   width: 100%;
   margin: 20px 0px;
   padding: 0px 20px;
