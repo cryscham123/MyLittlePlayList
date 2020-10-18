@@ -3,21 +3,11 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  position: relative;
 }
-.nav__btn {
-  position: absolute;
-  top: 50%;
-  text-decoration: none;
-  color: inherit;
-  transition: font-size 0.1s ease-in-out;
+.nav i {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
-.nav__btn:first-child {
-  left: 0;
-}
-.nav__btn:nth-child(2) {
-  right: 0;
-}
-.nav__btn:hover {
-  font-size: 20px;
+.nav i:hover {
+  transform: scale(1.2);
 }
