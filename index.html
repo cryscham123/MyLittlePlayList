@@ -1,246 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyLittlePlayList</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my test page</title>
+    <script src="test.js" defer></script>
     <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <nav class="nav">
-        <i class="fas fa-arrow-left fa-lg leftI"></i>
-        <i class="fas fa-search fa-lg rightI"></i>
-      </nav>
-      <div class="playingsong">
-        <i class="fas fa-caret-left fa-lg song__left"></i>
-        <div class="playingsong__information">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/I/C1i-hunFzNS._CR0,0,3840,2880_._SL1000_.jpg"
-            class="playingsong__image"
-          />
-          <span>Sam Smith</span>
-          <p>R&B</p>
+</head>
+<body>
+    <header class="header">
+        <span class="title">형훈 식당</span>
+        <div class="menu">
+            <button class="menu__list HomeBtn">Home</button>
+            <button class="menu__list TeamBtn">Team</button>
+            <button class="menu__list MenuBtn">Menu</button>
+            <button class="menu__list ContactBtn">Contact</button>
+            <button class="menu__list UserBtn">Account</button>
         </div>
+    </header>
+    <section class="sec__one">
+        <div class="layer imgOne">
+            <p class="greeting">Welcome To<br>Tom's Kitchen</p>
+            <p class="greeting__details">형훈 식당에 오신걸 환영합니다.<br>다양한 요리를 즐겨보세요.</p>
+        </div>
+    </section>
+    <section class="sec__two">
+            <p class="greeting">World Class Crue</p>
+            <p class="greeting__details">오직 준비된 전문인력들로 구성되있습니다.</p>
+            <div class="wrapper">
+                <div class="cooker">
+                    <img src="img/cooker.jpg" class="cooker__img"/>
+                    <p class="cooker__name">Tom Kim</p>
+                    <p class="cooker__career">형훈식당 CEO</p>
+                </div>
 
-        <i class="fas fa-caret-right fa-lg song__right"></i>
-      </div>
-      <ul class="playingsong__ul">
-        <li class="playingsong__btn">Shuffle</li>
-        <li class="playingsong__btn likesBtn">
-          <i class="fas fa-heart"></i>
-          <p></p>
-        </li>
-      </ul>
+                <div class="cooker">
+                    <img src="https://cdna.artstation.com/p/assets/images/images/000/016/780/large/sdfs.jpg?1443929462" class="cooker__img">
+                    <p class="cooker__name">Walter White</p>
+                    <p class="cooker__career">수석 셰프</p>
+                </div>
 
-      <div class="music-list">
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/569/569695.jpg?type=r360Fll&v=20190613155714"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Stay With Me</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
+                <div class="cooker">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfTQuH14TzeJEESz7jWksauv1Te_yEDwYrXg&usqp=CAU" class="cooker__img">
+                    <p class="cooker__name">Jon Snow</p>
+                    <p class="cooker__career">경호 실장</p>
+                </div>
+            </div>
+    </section>
+    <section class="sec__three">
+        <p class="greeting">Enjoy Your Meals</p>
+            <p class="greeting__details">마음에 드는 요리를 골라 보십시오.</p>
+        </section>
+    <section class="sec__four">
+        <div class="layer imgFour">
+            <p class="greeting">Will You Join Us?</p>
+            <p class="greeting__details">형훈 식당에 참여하여<br>월드 클래스 셰프에 도전해 보십시오.</p>
+            <a href="#" class="recruit">구인 공고</a>
         </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/570/570056.jpg?type=r360Fll&v=20200219101711"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>I'm Not The Only One </span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/431/431481.jpg?type=r360Fll&v=20200218133209"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>In The Lonely Hour</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/417/417488.jpg?type=r360Fll&v=20200325202708"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Money On My Mind</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/417/417488.jpg?type=r360Fll&v=20200325202708"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Money On My Mind</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/569/569695.jpg?type=r360Fll&v=20190613155714"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Stay With Me</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/569/569695.jpg?type=r360Fll&v=20190613155714"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Stay With Me</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/569/569695.jpg?type=r360Fll&v=20190613155714"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Stay With Me</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/569/569695.jpg?type=r360Fll&v=20190613155714"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Stay With Me</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-        <div class="music-list__music">
-          <img
-            src="https://musicmeta-phinf.pstatic.net/album/000/569/569695.jpg?type=r360Fll&v=20190613155714"
-            class="music-list_image"
-          />
-          <div class="music-list__details">
-            <p class="music-list__singer">Sam Smith</p>
-            <a class="music-list__title music-list__hrf" href="#"
-              ><span>Stay With Me</span></a
-            >
-          </div>
-          <a class="music-list__hrf" href="#"
-            ><i class="fas fa-ellipsis-v fa-lg"></i
-          ></a>
-        </div>
-      </div>
-      <nav class="bottom-bar">
-        <li class="bottom-bar__list">
-          <p>Sam Smith</p>
-          <span>I'm Not The Only One</span>
-        </li>
-        <li class="bottom-bar_btn">
-          <i class="fas fa-step-backward fa-lg"></i>
-          <i class="fas fa-pause fa-lg"></i>
-          <i class="fas fa-step-forward fa-lg"></i>
-        </li>
-      </nav>
+        </section>
+    <section class="sec__five">
+        <p class="greeting">Let's Start</p>
+            <p class="greeting__details">로그인 화면</p>
+    </section>
+    <div class="bottom">
+        <p class="bottom__text">(주)김형훈컴퍼니<br>경기도 용인시 수지구 신봉동 26-2 6층</p>
+        <p class="bottom__text">사업자번호:127-00-15500</p>
+        <p class="bottom__text">통신판매업:서울 송파-0515</p>
+        <p class="bottom__text">대표전화:1588-1588|팩스:050-0505-0000</p>
+        <p class="bottom__text">대표메일:cryscham123@naver.com</p>
     </div>
-    <div class="container">
-      <nav class="nav">
-        <i class="fas fa-arrow-left fa-lg leftI"></i>
-        <i class="fas fa-ellipsis-v fa-lg rightI"></i>
-      </nav>
-      <main class="main">
-        <img
-          src="https://musicmeta-phinf.pstatic.net/album/000/570/570056.jpg?type=r360Fll&v=20200219101711"
-          class="main_image"
-        />
-        <div class="main__title">
-          <span>I'm Not The Only One</span>
-          <p>Sam Smith</p>
-        </div>
-        <div class="main__ani">
-          <div class="time">
-            <span> 0:00 </span>
-            <span> 3:00 </span>
-          </div>
-          <div class="duration-bar"></div>
-        </div>
-        <div class="main__nav">
-          <a class="main__sublink" href="#">
-            <i class="fas fa-redo-alt fa-lg"></i>
-          </a>
-          <a class="main__mainlink" href="#"
-            ><i class="fas fa-step-backward fa-lg"></i
-          ></a>
-          <a class="main__mainlink" href="#">
-            <i class="fas fa-play"></i>
-          </a>
-          <a class="main__mainlink" href="#"
-            ><i class="fas fa-step-forward fa-lg"></i
-          ></a>
-          <a class="main__sublink" href="#"
-            ><i class="fas fa-random fa-lg"></i
-          ></a>
-        </div>
-      </main>
-    </div>
-    <script src="test.js"></script>
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
 </html>
